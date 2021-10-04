@@ -1,12 +1,5 @@
-Tmux 8 hours per day.
+Tmux 8 hours per day. (use case)
 
-Intro.
-One of the most important processes of our life is control. 
-We do want to have control over our life.
-At the same time, most people spend a third part of their lives at work. 
-Naturally, we do want to keep control at work, starting from using a password to login to our system, finishing with setting up the look and feel of our operating system to own it.
-What about the terminal? Do we own a terminal, do we control it, or it is the only bunch of strings with the blinking cursor?
-How we can control it, how we can make it feel that we own it? How we make it work for us.
 
 Main part.
 In this article, I would like to share my vision, how to make terminal work for you, feel comfortable in this black rectangle with a blinking cursor.
@@ -20,7 +13,7 @@ So with it, you can create vertical and horizontal splits, you can create as man
 You can have all your commands in the same terminal instead of open 10 terminal windows.
 But what if you want terminal emulator agnostic solution. You want to be comfortable in any terminal emulator.
 Here it goes. Old good tmux will help you.
-Tmux stands for Terminal Multiplexer, obviously. 
+Tmux stands for Terminal Multiplexer. 
 This is a tiny application that aims to help you to organize all your terminal windows and panes (see below for details).
 
 Personally, I use tmux to organize my working environment and focus on the current task, and have all necessary logs, tests output, docker images, IDE right below my fingers. 
@@ -43,7 +36,7 @@ Inside this session you can have windows called as follow: 0:'docker', 1:'backen
 Press `Ctrl+b c` to create new window.
 'docker' window can have as many `panes` as you want, but we can have a simple vertical split where you can run some docker image without `-d` option to have logs from running docker container and leave another pane
 to be ready for any other docker commands, like `docker ps -a` so on.
-To make a vertical split you can type Ctrl+b %, for horizontal split Ctrl+b " accordingly.( Most not intuitive key banding from 50 existing )
+To make a vertical split you can type Ctrl+b %, for horizontal split Ctrl+b " accordingly.( Most not intuitive key binding from 50 existing )
 `backends` window will have 6 panes, 3 horizontal and 2 vertical. On each of the pane, we can execute the command which will run a specific backend microservice. In this way, you can have separate logs per microservice.
 And the last window called `frontends` will have 3 split panes, with 3 running frontend processes.
 
@@ -66,6 +59,6 @@ Tmux solves this problem.
 Conclusion.
 Actually, it is pretty easy to start to work with tmux. Don't be afraid of hotkeys, they are intuitive and simple. You can always type Ctrl+b ? to list them all. (Press `q` to exit from key bindings help screen)
 I hope you read this line :) as a bonus, I will give you key binding to detach from the session: Ctrl+b d.
-Here you can find alot of useful key bindings and commands ('Ctrl+b :' will allow you to type tmux command): https://tmuxcheatsheet.com
+Here you can find a lot of useful key bindings and commands ('Ctrl+b :' will allow you to type tmux command): https://tmuxcheatsheet.com
 To kill tmux session you can press 'Ctrl+b :' and type `:kill-session`.
 Good luck!
