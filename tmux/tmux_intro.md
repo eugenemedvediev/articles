@@ -1,6 +1,5 @@
 #Tmux 8 hours per day. (Intro)
 
-%% Today I want to share with you my findings about Terminal multiplexer (tmux).
 
 ##Intro.
 One of the most important processes of our life is control. 
@@ -12,6 +11,8 @@ operating system to own it.  What about the terminal? Do we own a terminal, do
 we control it, or it is the only bunch of strings with the blinking cursor?
 How we can control it, how we can make it feel that we own it? How we make it
 work for us?
+Today I want to share with you my findings about Terminal multiplexer (tmux) and
+how it could give you control over your terminal.
 
 ##Possible questions.
 I would like to list and answer some questions which possibly you could have:
@@ -24,17 +25,17 @@ I would like to list and answer some questions which possibly you could have:
 
 ##Possible answers.
 - Should I care or know about tmux at all?
-Personally, first time I heard about tmux after 15 years of my carrier in IT. So
-you definitely can live and be productive enough (depends on area) about tmux.
+Personally, first time I heard about tmux was after 15 years of my carrier in IT. So
+you definitely can live and be productive enough (depends on area) without tmux.
 The question is what is your area. Are you Product Owner,
-Scrum Master, UI/UX designer? There is a high probability that you would find my
+Scrum Master, UI/UX designer? There is a high probability that you wouldn't find my
 thoughts about tmux attractive. Are you QA, devops, developer? You are my
 audience. If you find yourself familiar with terminal, there is 100% hit.
 I can assume that you use Putty, iTerm2 or standard terminal application every
 day. This is good start as you know what command line is. So you know what you
 can do in command line and want to make your experience with it more fluent. You
 want to use multiple command lines to execute different commands in parallel.
-What you do normally? Open another terminal window or open another tab, or even
+What do you normally do? Open another terminal window or open another tab, or even
 open new pane (Ex. iTerm2). Soon you can find yourself juggling with windows, or
 trying to find necessary tab or pane using mouse. You loose your time, you loose
 your focus, you loose your energy.
