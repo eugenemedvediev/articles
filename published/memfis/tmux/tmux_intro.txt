@@ -1,0 +1,46 @@
+One of the most important processes of our life is control. We do want to have control over our life. At the same time, most people spend a third part of their lives at work. Naturally, we do want to keep control at work, starting from using a password to log in to our system, finishing with setting up the look and feel of our operating system to own it.
+
+   What about the terminal? Do we own a terminal, do we control it, or it is the only bunch of strings with the blinking cursor? How we can control it, how we can make it feel that we own it? How do we make it work for us? Today I want to share with you my findings of Terminal multiplexer (tmux) and how it could give you control over your terminal.
+
+   I would like to list and answer some questions which possibly you could have:
+
+Should I care or know about tmux at all?
+
+   Personally, the first time I heard about tmux was after 15 years of my carrier in IT. So you definitely can live and be productive enough (depends on area) without tmux. The quesion is what is your area. Are you a Product Owner, Scrum Master, UI/UX designer? There is a high probability that you wouldn't find my thoughts about tmux attractive. Are you QA, DevOps, developer? You are my audience. If you find yourself familiar with the terminal, there is a 100% hit.
+
+   I can assume that you use Putty, iTerm2, or standard terminal application every day. This is a good start as you know what the command line is. So you know what you can do in the command line and want to make your experience with it more fluent. You want to use multiple command lines to execute different commands in parallel. What do you normally do? Open another terminal window or open another tab, or even open a new pane (Ex. iTerm2). Soon you can find yourself juggling with windows or trying to find the necessary tab or pane using a mouse. You lose your time, you lose your focus, you lose your energy. Tmux could solve this problem. Not instantly, but for sure. So if you read the article to this point, then you should care about having tmux in your toolbox.
+
+
+How tmux could improve my performance as an IT specialist?
+
+   Partially I answered this question in the previous paragraph. Tmux is aimed to add structure and easy management of your multiple terminals (panes in tmux terms). You would be able in a short time to switch to a necessary terminal (pane), give names to the tmux windows (logical groups of panes), and also give names to the tmux sessions (logical groups of tmux windows).
+
+  You can navigate and search sessions and windows by name. Also easy navigate inside your tmux setup using only a keyboard. Yes, you should learn hotkeys, but it gives you a big boost in the future. You will jump between sessions, windows, and panes like a true hacker ( at least it will look like that :) )
+
+
+On which Operating systems tmux works?
+ 
+ Tmux is an application for Unix-like operating systems. Windows users should install WSL to be able to use tmux.
+
+
+How much time should I invest to become productive in tmux?
+
+   I can share my experience in learning tmux. The first primitive improvement I start to feel after 1 week of using tmux. Before I was using iTerm2 and made horizontal and vertical splits, and navigating between them with keyboard only, but still, it was not enough mature experience.
+
+   Tmux gives the feeling of solid technology which will work on any terminal emulator (iTerm, terminal, putty, alacrity, name it). There is a whole book written about tmux. Yes, you can learn small things here and there, but the foundation is not complex and you can learn it in 1 day. If you switch to tmux and will use it every day, you will quickly realize that your time investment is profitable.
+Is it easy to personalize tmux look and feel?
+
+   After some short period of time, you possibly would want to customize tmux look and feel for your taste. I didn't change much, just the colors of the bottom panel, and made it minimalistic. It is pretty simple to change tmux.conf file and see the result.
+
+
+Alternatives to tmux?
+
+   According to alternativeto.net  there are a lot of alternatives to tmux for my big surprise, but the only one about I heard from this list before is the screen, which has limited functionality comparing to tmux.
+
+
+Where to start?
+
+ You can start to read about tmux on its Github page. There you can find the instruction on how to install it on different platforms. The easiest way is to try it by yourself.
+What's next?
+
+I plan to write a small article about basic tmux terms and how to make a simple and minimalistic setup. Stay tuned.t

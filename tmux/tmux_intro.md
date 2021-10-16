@@ -65,7 +65,6 @@ Tmux gives feeling of solid technology which will work on any terminal emulator
 tmux. Yes you can learn small things here and there, but foundation is not
 complex and you can learn it in 1 day. If you switch to tmux and will use it
 everyday, you will quickly realize that your time investment is profitable.
-Minimal setup. I plan to write next article about tmux basics. 
 
 - Is it easy to personalize tmux look and feel?
 After some short period of time you possible would want to customize tmux look
@@ -84,12 +83,13 @@ https://github.com/tmux/tmux/wiki. There you can find the instruction how to
 install it on different platforms. The easiest way is to try it by yourself.
 
 - What's next?
-%% insert here link to the next article or announce it.
 I plan to write small article about basic tmux terms and how to make simple and
 minimalistic setup. Stay tuned.
+
 
 Next: Simple and minimalistic tmux setup
 - Tmux use case
 - How to automate my personal tmux session layout(s) using scripts?
 - How to automate tmux layout using plugins out of the box? 
 
+Minimal setup. I plan to write next article about tmux basics. 
